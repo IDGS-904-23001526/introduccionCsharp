@@ -11,7 +11,6 @@ namespace introduccionCsharp.Models
      * [métodos o funciones]
      * }
      */
-{
     class Practica2
     {
         string nombre;
@@ -24,7 +23,7 @@ namespace introduccionCsharp.Models
             nombre = Console.ReadLine();
 
             Console.WriteLine("Ingresa tu edad: ");
-            edad = Console.ReadLine();
+            //edad = Console.ReadLine();
 
             Console.WriteLine("Ingresa tu carrera");
             carrera = Console.ReadLine();
